@@ -125,7 +125,7 @@ int main()
             return 0;
         }
 
-        if (day > 1 && day <= max_day)
+        if (day >= 1 && day <= max_day)
         {
             input_success = true;
         }
